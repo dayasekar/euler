@@ -12,7 +12,7 @@ public class A21AmicableDivisors {
             int divisorSum = divisorSum(i);
             int reverseSum = divisorSum(divisorSum);
             if (i == reverseSum) {
-                System.out.println(String.format("d(%s) = %s and d(%s) = %s", i, divisorSum, divisorSum, reverseSum));
+                System.out.println(String.format("d(%d) = %d and d(%d) = %d", i, divisorSum, divisorSum, reverseSum));
             }
         }
     }
