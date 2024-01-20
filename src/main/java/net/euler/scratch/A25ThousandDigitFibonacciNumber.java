@@ -2,10 +2,10 @@ package net.euler.scratch;
 
 import java.math.BigInteger;
 
-public class A251000DigitFibonacciNumber {
+public class A25ThousandDigitFibonacciNumber {
 
     public static void main(String... args) {
-        A251000DigitFibonacciNumber impl = new A251000DigitFibonacciNumber();
+        A25ThousandDigitFibonacciNumber impl = new A25ThousandDigitFibonacciNumber();
         impl.run(1000);
     }
 
