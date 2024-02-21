@@ -20,7 +20,8 @@ public class A10SummationOfPrimes {
     }
 
     private boolean isPrime(long no) {
-        for (long i = 2; i <= Math.sqrt(no); i++) {
+        double limit = Math.sqrt(no);
+        for (long i = 2; i <= limit; i++) {
             if (no % i == 0) {
                 return false;
             }
